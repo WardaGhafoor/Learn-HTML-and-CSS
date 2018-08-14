@@ -5,26 +5,25 @@
         <meta charset="utf-8" />  <!-- 
             character type to tell the browser what character type you used beacuse it is different from country to country  -->
     </head>
-    <body>
-        <h1>Things I Must Do Today</h1>  <!--<br/>,break line(new line)-->
-        <dl>   <!--definition list-->
-           <dt>Visual Studio:</dt>  <!--is child of dl,defines terms/names-->  
-           <dd>An integrated development environment.</dd> <!--defined discription,tag you can put paragraphs, line breaks, images, links, lists, etc.-->
+    <body>       <!--body is child of html-->
+        <h1>Things I Must Do   <!--h1 and p are siblings(same paarent)-->
+            <span>Today</span>   <!--descendants(selector matches all elements that are descendants of a specified element) of body-->
+        </h1>  
+        <p>
+            Hi <strong>There!</strong>
+        </p>
+        <dl>  
+           <dt>Visual Studio:</dt>  
+           <dd>An integrated development environment.</dd> 
         </dl>
-          <ul>    <!--bullets-->
-              <li>Go to the mall</li> 
-              <!-- 
-                <li>
-                    <h1>Hello</h1>
-                    <p>How are you today.</p>
-                </li>
-              -->
+          <ul>   
+              <li>Go to the mall</li>
               <li>Shop</li>
               <li>Get Gas</li>
               <li>Drive Home</li>
           </ul>
 
-          <ol>    <!--bullets-->
+          <ol>   
             <li>Go to the mall</li>
             <li>Shop</li>
             <li>Get Gas</li>
