@@ -1,7 +1,13 @@
 a {
- color: red;   /*rgb(100,200, 50),hex value #e3e3e3:grey*/
- text-decoration: none;  /*1(_)by default link is underlined(it is override)so for check inspect the page*/
+ color: red;   
+ text-decoration: none;  
 }
 h1 {
   font-family: sans-serif;  
+}
+div {
+  width: 500px;
+  background-color: aqua;
+  margin: auto;
+  text-align: center;
 }
