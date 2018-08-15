@@ -3,15 +3,43 @@
     <head>
         <meta charset="utf-8" /> 
         <style>
-             body{background-color: plum}  
+            /* body {
+                 background-color: blue;
+                 color: red;
+             }  */
+            #emphasis {
+                color: yellow;
+            }
+            .emphasis {
+                color: red;
+            }
+            /*#sect*/ ul:first-of-type li:nth-child(3) {  
+                color: yellowgreen;
+            }
         </style> 
     </head>
     <body>  
-      <ul>
+                      <!--use IDs to target specific elements
+                      name will be something that describes what this element is remember with semantics we don't want to be specific(third_li),
+                      A semantic element clearly describes its meaning to both the browser and the developer(<form> , <table> , and <article>)-->
+            <!--IDs and classes are same but the main difference is ID is used to target one element but class is to group of elements-->
+      <ul id="sect">
           <li>This</li>
           <li>is</li>
-          <li>my</li>
-          <li>list</li>
-      </ul>  
+          <li>my</li> 
+          <li>list</li> 
+      </ul> 
+      <ul>
+            <li>This</li>
+            <li>is</li>
+            <li>my</li> 
+            <li>list</li> 
+        </ul>
+        <ul>
+                <li>This</li>
+                <li>is</li>
+                <li>my</li> 
+                <li>list</li> 
+            </ul> 
     </body>
 </html>
