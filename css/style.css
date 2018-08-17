@@ -1,14 +1,20 @@
 body {
-  background-color: #e3e3e3;
   font-family: sans-serif;
 }
-
-.wrap {
-  width: 600px;
-  margin: auto;
+li {
+  display: inline;
+  padding-right: 10px;
 }
-blockquote {
-  border: 1px solid white;
-  text-align: center;
-  margin-left: 0; 
+/*ul {
+  width: 150px;
+} */
+ul a {
+  text-decoration: none;
+  color: #666;
+}
+/*The :hover selector is used to select elements when you mouse over them*/
+ul a:hover  {           /*hover is pseudo class which means that when you hover over the element it is attached in this case an anchor tag*/
+  text-decoration: underline;
+  /*font-size: 30px;*/
+  color: black;
 }
