@@ -1,7 +1,19 @@
-form li{
+form li {
   list-style: none;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 label {
   display: block;
+  /*last steps*/
+  cursor: pointer;
+  color: blue;
+  font-family: sans-serif;
+  padding-bottom: 10px;
+}
+form ul {
+  padding-left: 0;
+}
+textarea {
+  height: 300px;
+  width: 400px;
 }
