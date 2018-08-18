@@ -1,19 +1,19 @@
-form li {
-  list-style: none;
-  margin-bottom: 10px;
+body {
+  background-color: #666;
 }
-label {
-  display: block;
-  /*last steps*/
-  cursor: pointer;
-  color: blue;
+h1 {
+  font-size: 120px;
+  text-align: center;
+  margin-top: 50px;
   font-family: sans-serif;
-  padding-bottom: 10px;
-}
-form ul {
-  padding-left: 0;
-}
-textarea {
-  height: 300px;
-  width: 400px;
+  /*font-family: 'Tangerine', 'Inconsolata', 'Droid Sans', serif; 
+  font-size: 48px; */
+  letter-spacing: -5px; /*may be +ve or -ve*/
+  color: black;
+  text-transform: lowercase;
+  /*1st value X offset(width),2 Y offset(height downwards),3 how much blur,4 color(5 10 10 red) */
+  text-shadow:
+            5px -1px 0 white, 
+            6px -1px 0 red;
+  font-variant: small-caps;
 }
