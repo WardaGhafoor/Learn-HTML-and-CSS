@@ -1,19 +1,6 @@
-form li {
-  list-style: none;
-  margin-bottom: 10px;
-}
-label {
-  display: block;
-  /*last steps*/
-  cursor: pointer;
-  color: blue;
-  font-family: sans-serif;
-  padding-bottom: 10px;
-}
-form ul {
-  padding-left: 0;
-}
-textarea {
+h1 {
+  background: url(../img/logo.png) no-repeat;
+  text-indent: -9999px;
   height: 300px;
-  width: 400px;
+  width: 530px;
 }
