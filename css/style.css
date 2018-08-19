@@ -1,22 +1,19 @@
-/*body {
-  margin: 0;
-}*/
-.wrap {
-  width: 800px;
-  height: 1000px;
-  margin: auto;
-  background-color: #666;
-  position: relative;
+article {
+  background-color: #e3e3e3;
 }
-.box {
-  width: 400px;
-  height: 400px;
-  margin: auto;
-  background-color: red;
-  /*position: relative; 100px away fro the top*/
-  /*top: 30px; left,right,top*/
-  /*left: 20px;*/
-  position: absolute; /*absolute positioning this with its nearest parent that is positioned*/
-  top: 30px;
-  left: 20px;
+
+body {
+  width: 800px;
+  margin: 20px auto; /*top,right,bottom,left ->here 20px(top and bottom)auto (left and right)*/
+}
+
+article img {
+  float: left;
+  margin-right: 30px;
+}
+.preview {
+  float: right;
+}
+ul li {
+  display: inline;
 }
