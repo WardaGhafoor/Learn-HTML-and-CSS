@@ -3,12 +3,25 @@
     <head>
         <meta charset="utf-8" /> 
         <title>Website</title>
-        <link rel="stylesheet" href="about/index.html">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
-    <body> 
-            <body>  <!--target attribute is for opening in a new tab-->
-                <!--
-                      <p>Search a <a href="http://www.google.com" target="_blank">Website</a></p> -->
-              <p><a href="about/index.html">Learn more about me.</a></p>
+    <body>  
+            <!--.wrap>header>h1{My Website}+nav>ul>li*3>a[href=#]-->
+            <div class="wrap">
+                    <header>
+                            <h1>My Website</h1>
+                            <nav>
+                                    <ul>
+                                            <li><a href="#">Home</a></li>
+                                            <li><a href="#">About</a></li>
+                                            <li><a href="#">Contact</a></li>
+                                    </ul>
+                            </nav>
+                    </header>
+                    <div class="main">
+                                <p>The body of my website.</p>
+                        </div>
+            </div>
     </body>
 </html>
