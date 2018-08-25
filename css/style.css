@@ -21,3 +21,12 @@ header {
 .main {
   margin-top: 20px;
 }
+/*Basic box model says that you take the width and then ad the margin and then you add the paddings aplied
+to the element and that equals the full width of the elements*/
+/*section {
+  padding: 10px; padding is applied in addition to width
+}*/
+section {
+  box-sizing: border-box;
+  padding: 15px;
+}
